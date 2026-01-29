@@ -4,6 +4,8 @@ A modern, interactive **Rock Paper Scissors** game built using **HTML, CSS, and 
 
 This project focuses on delivering a smooth user experience while showcasing practical front-end development skills relevant to real-world web applications.
 
+![Game Screenshot](images/image-1.png)
+
 ---
 
 ## 📌 Project Overview
