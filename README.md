@@ -44,13 +44,15 @@ No external libraries or frameworks were used.
 
 ## 📂 Project Structure
 
+```text
+
 project-folder/
 │
 ├── index.html # Main HTML file
 ├── style.css # Game styling
 ├── rock-paper.js # Game logic
 └── images/ # Game assets
-
+```
 
 ---
 
@@ -58,4 +60,4 @@ project-folder/
 
 1. Clone the repository:
    ```bash
-   git clone <repository-link>
+   git clone https://github.com/Sparshagarwal29/Rock-Paper-Scissor.git
