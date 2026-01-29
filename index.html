@@ -10,21 +10,27 @@
     <header>
         <h1 class="Game-heading">ROCK PAPER SCISSOR GAME</h1>
     </header>
-    <button  onclick="playerGame('rock');"     class="move-button"><img src="images/rock.png" alt="rock" class="rock-image"  >
-    </button>
-    <button onclick="playerGame('paper');" class="move-button">
-        <img src="images/paper.png" alt="paper"  class="paper-image" >
-    </button>
-    <button onclick="playerGame('scissor');" class="move-button">
-        <img src="images/scissor.png" alt="scissor"  class="scissor-image">       
-    </button>
+    <div class="moves-container">
+        <button onclick="playerGame('rock');" class="move-button">
+            <img src="images/rock.jpeg" alt="rock">
+        </button>
+
+        <button onclick="playerGame('paper');" class="move-button">
+            <img src="images/paper.jpeg" alt="paper">
+        </button>
+
+        <button onclick="playerGame('scissor');" class="move-button">
+            <img src="images/scissors.jpeg" alt="scissor">
+        </button>
+    </div>
+
      <p class="js-result result"></p>
      <p class="js-moves">      
      </p>
      <p class="js-score score" ></p>
 
     <button onclick=" 
-        score.wins = 0;
+        score.wins = 0;                                     
         score.losses = 0;
         score.ties = 0;
         localStorage.removeItem('score');

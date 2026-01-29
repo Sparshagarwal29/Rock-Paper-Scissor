@@ -63,13 +63,6 @@ function playerGame(playerMove) {
 
     document.querySelector('.js-result').
     innerHTML = result;
-
-    document.querySelector('.js-moves').innerHTML
-    = ` You
-  <img src="images/${playerMove}.png" alt=""  class="rock-image" >
-  <img src="images/${computerMove}.png" alt="" class="scissor-image" >
-  computer`;
-
 }
 function update(){
     document.querySelector('.js-score')
